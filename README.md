@@ -1,4 +1,12 @@
 This is a Weather Application made as an assignment for Stamurai.
+![weather1](https://github.com/savarkavi/weather-app/assets/95624618/c6abe47a-bbca-4caa-ac56-b752a54de147)
+
+
+![weather2](https://github.com/savarkavi/weather-app/assets/95624618/bd8eef29-e8c3-46cd-90e6-86e445b8bff9)
+
+
+![weather3](https://github.com/savarkavi/weather-app/assets/95624618/b9b3c2ba-b003-46d2-aaeb-5c890a0313b8)
+
 
 ## Getting Started
 
