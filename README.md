@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Weather Application made as an assignment for Stamurai.
 
 ## Getting Started
 
@@ -13,6 +13,18 @@ pnpm dev
 # or
 bun dev
 ```
+
+## Features in this application
+
+- City List: A table displaying all cities with a population of 1000 or more, fetched from the Geonames All Cities API. The table includes columns for city name, country, timezone, and Latitude/Longitude.
+- Infinite Scroll: The city list supports infinite scrolling, allowing users to load more cities as they scroll down the table.
+- Search and Autocomplete: Users can search for cities by name, with an autocomplete feature suggesting possible locations as they type.
+- Weather Page: Clicking on a city name in the table opens a dedicated weather page for that city, displaying current weather conditions and forecasts fetched from the OpenWeatherMap API.
+- Automatic Location detection & Map Integration: Application will automatically detect your location and will show it on Map. Clicking on the Link will take you to your city weather.
+- Weather News: I've implemented news feature on app too. Users can see top headlines and latest news on weather and climate. Clicking on news will take you to it's respective source.
+- IMPORTANT NOTE ON NEWS: News API does not allow the requests from a deployed app on the browser on free version. I've provided Screen Shots of application running on Localhost to show how it looks like.
+- Recently Visted Locations: The header shows the recent cities you have visted by storing them on browser's Local Storage.
+- Beautiful UI: The application has seamless UI and user experience and have dedicated Loading features.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
