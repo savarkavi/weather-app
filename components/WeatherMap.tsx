@@ -42,7 +42,7 @@ const WeatherMap = () => {
   if (center) {
     const fetchCityName = async () => {
       const { data } = await axios.get(
-        `http://api.openweathermap.org/geo/1.0/reverse?lat=${center[0]}&lon=${center[1]}&appid=85f95f4f8e1b0c71bde8c98290317cc6`
+        `https://api.openweathermap.org/geo/1.0/reverse?lat=${center[0]}&lon=${center[1]}&appid=85f95f4f8e1b0c71bde8c98290317cc6`
       );
       setCityName(data[0].name);
     };
