@@ -31,10 +31,10 @@ const CityWeather = () => {
         try {
           const [weatherRes, forecastRes] = await Promise.all([
             axios.get(
-              `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=85f95f4f8e1b0c71bde8c98290317cc6`
+              `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=85f95f4f8e1b0c71bde8c98290317cc6`
             ),
             axios.get(
-              `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=85f95f4f8e1b0c71bde8c98290317cc6`
+              `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=85f95f4f8e1b0c71bde8c98290317cc6`
             ),
           ]);
           setWeatherData(weatherRes.data);
